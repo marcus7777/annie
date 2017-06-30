@@ -1,0 +1,123 @@
+html{color:#FFF;background-color:#000}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+li{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}
+abbr,acronym{font-variant:normal}
+/* to preserve line-height and selector appearance */
+sup {vertical-align:text-top}
+sub {vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+/*because legend doesn't inherit in IE */
+legend{color:#000}
+
+*{border:0px solid #eee;margin:0;padding:0;list-style:none}
+html,body,#bg,#bg table,#bg td,#cont{width:100%;height:100%;overflow:hidden;top: 0px; margin-top: 0px}
+body{font-family:Arial,Helvetica,sans-serif;font-size:16px;cursor:default;color:#c4e2e9}
+h1,h2{font-family:Arial,sans-serif;font-size:40px}
+h2,.box div img{padding-bottom:10px}
+a{text-decoration:none;color:#fff;outline:0}
+img{display:inline}
+
+.cont{position:absolute;top:0;left:0;z-index:70;overflow:auto}
+#cont{position:absolute;top:0;left:0;z-index:70;overflow:auto}
+
+#menu{position:absolute;bottom:0px;left:0px;right:0px;z-index:80;width:100%;line-height:16px;min-width: 465px}
+#menu>div{height:7.7em;background-color:rgba(0,0,0,.4)}
+#menu>div a img {bottom:0px;left:200px;position:absolute}
+#menu>ul.tabs {bottom:0px;right:0px;position:absolute}
+#menu>div #fixed_menu {background:transparent none ;bottom:0px;right:0px;position:absolute;width:7em}
+
+#primary_menu ul.links {text-align:right;width:7em;margin: 0;padding:.35em 0}
+#primary_menu {bottom:0px;left:8em;width:7em;position:absolute;background-color:rgba(0,0,0,.4)}
+
+#secondary_menu ul.links {padding:.35em 0;text-align:right;width:8em;margin:0}
+#secondary_menu {bottom:0px;left:0;width:8em;position:absolute;background-color:rgba(0,0,0,.4)}
+
+ul{float:left;}
+#menu>div li {padding:0}
+li a{white-space:nowrap;line-height:1.3em;padding:0 5px;color:#c4e2e9;display:block}
+li.active-trail a{background:#888}
+li a:hover,
+li a.active{background:white;color:#000}
+.block-annie-content article {
+  overflow: visible;
+}
+
+
+#block-annie-content article div{display:inline;background:none;padding:0}
+#block-annie-content article ul,.field--name-body div li{float:none;list-style-position:inside;list-style-type:disc}
+#block-annie-content a{text-decoration:underline}
+#block-annie-content article p {margin-bottom:10px}
+.large h2{font-size:60px}
+
+.white{color:#fff}
+
+#block-annie-content article {padding-bottom:7.7em}
+
+.large.Centre{left:13%}
+.medium.Centre{left:25%}
+.small.Centre{left:37%}
+
+h3{position:relative;border-bottom-width:1px;padding:30px 30px 10px 30px;margin:0 -30px 20px -30px;text-transform:uppercase;line-height:20px;font-weight:bold}
+h3 span{position:absolute;right:510px;top:29px;background:#000;text-align:center;padding:0 5px;white-space:nowrap;display:block;color:#fff;font-weight:normal}
+
+dl{margin:10px 0}
+dt,dd p{padding:15px 0 25px 0;display:block;border-top-width:1px;width:440px}
+dt{text-transform:uppercase;padding:0 5px;cursor:pointer;line-height:20px;height:20px;font-weight:bold;width:430px}
+dd{height:0px;overflow:hidden;width:440px}
+
+#photos{position:absolute;z-index:90;bottom:41px;right:40px;height:20px;overflow:hidden}
+#photos a,#float{z-index:90;height:20px;line-height:20px;text-align:center;width:40px;background:#000 url(gal.gif) -6px 5px no-repeat;cursor:pointer;color:#fff}
+#photos a{width:20px;float:left;margin-left:1px;background:#000;font-weight:bold;overflow:hidden}
+#photos a:hover,#photos a.cur{background:#fff;color:#000}
+
+a#site-name {bottom:3px;color:#C4E2E9;font-size:68px;left:248px;position:absolute}
+a#site-name span {color: PowderBlue;font-size:68px;font-weight: 300;line-height: 56px;margin: 0 0 0 10px;white-space: nowrap}
+a#site-name span.dark {color: #72ccea !important;}
+a#site-name span.slogan {font-size:36px}
+
+#copyright {left: 45.5em;bottom: 6.5em;position: absolute;}
+#modalContainer {overflow:hidden;}
+
+#menu div li {line-height:1.3em;margin:0;padding:0;display:block;}
+@media only screen and (max-width: 840px) {
+  a#site-name {font-size:42px}
+  a#site-name span {font-size:42px}
+  a#site-name span.slogan {font-size:23px}
+  #copyright {left: 34.5em}
+  
+  .Top{top:25px;position:absolute}
+  .Middle{top:25%;position:absolute}
+  .Bottom{position:initial}
+
+  .Left{left:25px}
+  .Centre{left:37%}
+  .Right{right:25px}
+
+  .large{padding-bottom:15em;width:93.3%}
+  .medium{padding-bottom:15em;width:70%}
+  .small{padding-bottom:15em;width:50%}
+
+  .large.Centre{left:3.3%}
+  .medium.Centre{left:15%}
+  .small.Centre{left:25%}
+}
+@media only screen and (max-width:720px) {
+  a#site-name {font-size:37px}
+  a#site-name span {font-size:37px}
+  a#site-name span.slogan {font-size:20px}
+  #copyright {display:none}
+}
+@media only screen and (max-width: 600px) {
+  body{font-size:20px}
+  #menu li a{line-height:2em}
+  .medium {width: 70%}
+  #menu div{height:7.7em}
+  a#site-name {bottom:3px;color:#C4E2E9;font-size:37px;left:25px;position:absolute}
+  a#site-name span {color: PowderBlue;font-size:37px;font-weight: 300;line-height: 30px;margin: 0 0 0 10px;white-space: nowrap}
+  a#site-name span.slogan {font-size:20px}
+}
